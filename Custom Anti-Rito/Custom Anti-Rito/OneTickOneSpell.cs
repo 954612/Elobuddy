@@ -54,7 +54,7 @@ namespace CustomAntiRito
             {
                 if (ConfigMenu["Drawing"].Cast<CheckBox>().CurrentValue)
                 {
-                    Drawing.DrawText(10, 1050, System.Drawing.Color.Aqua, "Blocked orders: " + BlockedCount);
+                    Drawing.DrawText(15, 1055, System.Drawing.Color.Aqua, "Blocked orders: " + BlockedCount);
                 }
             };
         }
